@@ -21,7 +21,7 @@ class RegisterActivity : AppCompatActivity() {
             Log.d("dkdk", et_register_id.text.toString())
 
             if(id.toString().equals("")){
-                et_register_id.error="빈칸 존재"
+                et_register_id.error="빈칸 존재"//
             }
             else{
                 if(!et_PSD.text.toString().equals(rpsw))
